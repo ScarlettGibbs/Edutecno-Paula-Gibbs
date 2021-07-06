@@ -1,0 +1,75 @@
+/* Secccion Informacion Blogger */
+
+.blogger {
+    width: 100%;
+    height: 330px;
+    border-top: 1px solid $light-gray;
+    padding: 5rem 0rem;
+}
+
+.blogger--imagen {
+    text-align: center;
+}
+
+.blogger--texto {
+    padding: 5%;
+    text-align: center;
+}
+
+.blogger--texto--block {
+    text-align: left;
+}
+
+.blogger--img {
+    height: 9rem;
+    width: 9rem;
+    vertical-align: top;
+}
+
+.blogger--name {
+    font-family: $playfair;
+    font-weight: $font-black;
+    font-size: $x-large;
+    font-style: italic;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.blogger--contenido {
+    line-height: $height;
+    color: $eerie-black;
+}
+
+.blogger--parrafo {
+    margin: 0;
+    color: $spanish-pink;
+    font-weight: $font-regular;
+}
+
+/* Media Query de la informacion Blogger*/
+
+@media (max-width: 990px) {
+    .blogger--contenido {
+        display: none;
+    }
+
+    .blogger--texto--block {
+        text-align: center;
+        padding-top: 16px;
+    }
+
+    .blogger--img {
+        height: 130px;
+        width: 130px;
+        vertical-align: top;
+    }
+
+    .blogger--texto {
+        padding: 0;
+    }
+
+    .blogger {
+        margin: 20px;
+        align-items: center;
+    }
+}

@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Reseteo margenes*/
+    margin: 0;
+    padding: 0;
+}
+
+/* Definicion de visualizacion por GRID */
+
+/*Se definen que tendra 2 comumnas y 3 filas*/
+.grid {
+    display: grid;
+    grid-template-rows: [y0] auto [y1] auto [y2] auto [y3] auto[y4] auto[y5] ;
+    grid-template-columns: [x0] 50% [x1] 50% [x2];
+    
+}
+
+/* definicion del espacio GRID por sectores en el layout*/
+.navbar {
+    background: darkslategrey;
+    grid-column: x0 / x2;
+    grid-row: y0 / y1;
+    height: min-content;
+
+}
+
+.header {
+    grid-column: x0 / x2;
+    grid-row: y1 / y2;
+    height: min-content;
+}
+
+.busqueda {
+    grid-column: x0 / x2;
+    grid-row: y2 / y3;
+    height: min-content;
+}
+
+.resultado {
+    background: orange;
+    grid-column: x0 / x1;
+    grid-row: y3 / y4;
+}
+
+.Grafico {
+    background: salmon;
+    grid-column: x1 / x2;
+    grid-row: y3 / y4;
+}
+
+.footer {
+    background: gray;
+    grid-column: x0 / x2;
+    grid-row: y4 / y5;
+}
+
+
+/* MENU */
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.img__header {
+    width: 60%;
+    padding: 60px 0 10px 0;
+}
+
+
+
+/* Busqueda*/
+.resultado h2 {
+    font-weight: 700;
+    color: darkslateblue;
+    font-size: 40px;
+    padding: 0;
+}
+
+.busqueda input{
+    width: 300px;
+}
+
+/* Para que aparescan las flechas de desplazamiento en el input*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+no__mostrar {
+    display: none;
+}
+
+p {
+    font-family: 'Ubuntu';
+    color: darkcyan;
+    font-weight: 300;
+}
+
+.hero__name {
+    font-size: xx-large;
+    color: darkgreen;
+    font-weight: 700;
+}
+
+/* Card SuperHerore */
+
+.card {
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card img {
+    width: 40%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+
+
+/* Pie de pagina */
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    width: 100%;
+    
+    color: white;
+}
+
+.footer__text {
+    font-family: 'Ubuntu', sans-serif;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    padding-right: 30%;
+    padding-top: 16px;
+    color: white;
+}

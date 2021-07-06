@@ -1,0 +1,17 @@
+@mixin important-button() {
+    border-radius: 10%;
+    margin-left: 20px;
+    padding: .60px 14px;
+    border: 4px $white solid;
+    background-color: $tangerine;
+}
+
+@mixin improtant-button--small() {
+    height: 38px;
+    font-size: $small;
+}
+
+@mixin improtant-button--medium() {
+    height: 44px;
+    font-size: $medium;
+}

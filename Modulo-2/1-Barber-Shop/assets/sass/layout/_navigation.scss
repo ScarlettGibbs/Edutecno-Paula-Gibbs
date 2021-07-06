@@ -1,0 +1,25 @@
+
+/* Menu */
+nav {
+    background-color: $eerie-black;
+    height: 96px;
+    position: fixed;
+    /* cabecera fija & se extiende completamente*/
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.navbar__logo {
+    width: 86px;
+    padding: 26px 0;
+}
+
+.nav-link:hover {
+    color: $fuzzy-wuzzy !important;
+}
+
+
+

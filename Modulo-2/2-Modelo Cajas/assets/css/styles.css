@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("/assets/img/tartan.png");
+    visibility: inherit;
+    background-color: #cccccc;
+    color: midnightblue;
+}
+
+p li {
+    padding: 50px;
+}
+
+h1 h3 footer {
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    background-color: darkslategrey;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+.ml {
+    margin-left: 100px;
+}
+
+.titulos {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.listas {
+    margin-left: 100px;
+    padding-top: 50px;
+}

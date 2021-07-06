@@ -1,0 +1,47 @@
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #B0CCAB;
+    padding: 50px;
+    height: 100%;
+    position: absolute;
+}
+
+.main__paragraph {
+    left: 40px;
+    position: fixed;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.texto1 {
+    position:static;
+}
+
+.texto2 {
+    position:relative;
+}
+
+
+footer {
+    background-color: darkslategrey;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 0%;
+}

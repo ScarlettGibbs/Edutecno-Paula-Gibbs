@@ -1,0 +1,62 @@
+/* Typography Styles */
+body {
+    font-family: $ubuntu;
+    font-size: $medium;
+    color: $sable;
+}
+
+h1 {
+    font-size: $xxxx-large;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: $ubuntu;
+}
+
+p {
+    font-weight: $font-regular;
+    line-height: $height;
+}
+
+.navbar {
+    color: $white;
+    font-family: $poppins;
+    font-weight: $font-black;
+    font-size: $x-small;
+
+    &__list{
+        a {
+            &:hover {
+                color: $tangerine;
+            }
+        }
+    }
+}
+
+.footer{
+    font-family: $poppins;
+    font-weight: $font-regular;
+    color: $white;
+
+    &__email{
+        color: $charcoal;
+    }
+
+    &__enviar{
+        color: $sable;
+    }
+}
+
+
+@media screen and (min-width: $md) {
+    h1 {
+        font-size: $xxx-large;
+    }
+}

@@ -1,0 +1,12 @@
+/* Input Style */
+
+input[type="email"i] {
+    width: 100px;
+}
+
+input .footer__mail {
+    background-color: $white;
+    &:hover {
+        background-color: $orange;
+    }
+}

@@ -1,0 +1,33 @@
+body{
+    font-family: 'open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.pinky {
+  background-color: #E83E8C;
+}
+
+#sizeSuricata{
+  max-width: 100%;
+  height: 3em;
+}
+
+h1 {
+text-align: center;
+font: Bold 35px/47px Open Sans;
+letter-spacing: 0.5px;
+color: #707070;
+opacity: 1;
+}
+
+footer img{
+  top: 1407px;
+  left: 627px;
+  width: 53px;
+  height: 100px;
+}
+
+footer{
+  text-align:justify;
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*inicializa los margenes*/
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    background-color: black;
+    /* ocupa todo el ancho del navegador*/
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 300%;
+}
+
+.menu {
+    background-color: whitesmoke;
+    width: 400px;
+    padding: 20px 10px;
+    float: left;
+    box-sizing: border-box;
+}
+
+/* Sin subrallado*/
+a {
+    text-decoration: none;
+}
+
+.main {
+    margin-left: 320px;
+    padding-top: 20px;
+}
+
+/* Pie de pagina*/
+footer {
+    background-color: darkslategrey;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 0%;
+}

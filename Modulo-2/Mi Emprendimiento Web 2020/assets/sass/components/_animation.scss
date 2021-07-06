@@ -1,0 +1,45 @@
+//Prueba efectos SVG con https://webcode.tools/generators/css/keyframe-animation
+
+
+@keyframes mover {
+    0% {
+        transform: translate(0px, 0px)
+    }
+
+    100% {
+        transform: translate(100px, 0px)
+    }
+}
+
+.animacion--mover {
+    -webkit-animation: mover 3s ease-in-out infinite alternate;
+    animation: mover 3s ease-in-out infinite alternate;
+}
+
+    @keyframes giro {
+
+        0% {
+    
+            transform: rotate(0deg);
+    
+        }
+    
+        100% {
+    
+            transform: rotate(360deg);
+    
+        }
+    
+    }
+    
+    // ayuda de 
+    
+    .animacion--girar {
+    
+        transform-origin: 79% 410px;
+    
+        -webkit-animation: giro 2s ease-in-out infinite normal;
+    
+        animation: giro 2s ease-in-out infinite normal;
+    
+    }

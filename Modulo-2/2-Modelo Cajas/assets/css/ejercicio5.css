@@ -1,0 +1,47 @@
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    padding-top: 50px;
+    padding-left: 40%;
+    position: absolute;
+}
+
+.caja {
+    text-align: center;
+    display: inline-block;
+}
+
+/* Posicion de las imagenes*/
+.imagenes {
+    position:relative
+}
+
+.esp1 img{
+    image-resolution: 150%;
+}
+.esp1 {
+    float: left;
+}
+
+.esp2 {
+    position: absolute;
+}
+
+/* Pie de pagina*/
+footer {
+    background-color: darkslategrey;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 0%;
+}

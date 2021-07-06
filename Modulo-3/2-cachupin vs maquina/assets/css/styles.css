@@ -1,0 +1,34 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("/assets/img/fondo.jpg") no-repeat center center fixed;
+    color: dimgray;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h2, h3{
+    text-align:left;
+    margin-left: 20px;
+}
+
+.container{
+    margin: 5% 20%;
+    
+}
+
+/* Pie de pagina */
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+}

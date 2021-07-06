@@ -1,0 +1,89 @@
+html,
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+}
+
+.square__red {
+    background-color: rgba(255, 0, 0, .5);
+    left: 25px;
+    position: absolute;
+    top: 25px;
+}
+
+.square__green {
+    background-color: rgba(0, 255, 0, .5);
+    left: 50px;
+    position: absolute;
+    top: 50px;
+}
+
+.square__blue {
+    background-color: rgba(0, 0, 255, .5);
+    left: 75px;
+    position: absolute;
+    top: 75px;
+}
+
+/* Orden de imagenes*/
+.zIndex1 {
+    z-index: 1;
+}
+
+.zIndex2 {
+    z-index: -1;
+}
+
+.zIndex3 {
+    z-index: -2;
+}
+
+.caja {
+    margin-right: -5px;
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+.caja p{
+    font-size: larger;
+}
+
+.m1 {
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.m2 {
+    margin-top: 40px;
+    margin-left: 800px;
+}
+
+footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+footer .piePagina {
+    background-color: darkslategrey;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+footer .titulos {
+    text-align: center;
+    padding: 40px;
+}

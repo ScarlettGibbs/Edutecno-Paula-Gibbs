@@ -1,0 +1,70 @@
+body{
+  font-family: 'Roboto',sans-serif;
+}
+nav img{
+  width: 160px;
+  height: auto;
+}
+.text-grey{
+  color:#707070;
+}
+
+#imagenTarjeta{
+  width: 18rem;
+}
+
+footer img{
+  width:120px;
+  height: auto;
+}
+footer{
+  text-align: center;
+}
+
+/* letras de los card */
+
+#descProd{
+  font-weight: 300;
+  font-size: 1.2em;
+  color:#212529;
+}
+
+#prod{
+  font-weight: 300;
+  font-size: 1em;
+  color:#707070;
+}
+#precio{
+  font-weight: 300;
+  font-size: 1em;
+  color:#707070
+}
+#oferta{
+  font-weight: 500;
+  font-size: 1.3em;
+  color:#28A745;
+}
+#lugar{
+  font-weight: 300;
+  font-size: 0.8em;
+  color:#707070
+}
+
+/* */
+#textFormulario{
+  font-weight: 500;
+  color:#FFFFFF;
+  font-size: larger;
+  text-align: center;
+}
+#enviar{
+  font-weight: 500;
+  color:#212529;
+}
+li{
+  line-height: 25%;
+}
+#logoSize2{
+  max-width: 100%;
+  height: 2em;
+}

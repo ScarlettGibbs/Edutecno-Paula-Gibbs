@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url("/assets/img/fondo_05.jpg") no-repeat center center fixed;
+    color: dimgray;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+p li {
+    padding: 50px;
+}
+
+h1 h3 footer {
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.ml {
+    margin-left: 100px;
+}
+
+.titulos {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.listas {
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+.listas li a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+.operaciones{
+    margin-left: 20%;
+}

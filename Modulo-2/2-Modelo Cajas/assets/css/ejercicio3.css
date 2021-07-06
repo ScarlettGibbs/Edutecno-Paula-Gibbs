@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bandera {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid #000;
+    float: left;
+}
+
+.caja{
+    width: 550px;
+    height: auto;
+    margin: 10px;
+    float: left;
+}
+
+.pais{
+    padding-left: 30px;
+    text-align: justify;
+}
+
+/* colores bandera España */
+.esp1 {
+    background-color: red;
+    height: 25%;
+}
+.esp2 {
+    background-color: gold;
+    height: 50%;
+}
+
+
+
+/* colores bandera Dinamarca */
+.rojo{
+    background-color: red;
+}
+
+.din1{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    margin: 140px 0;
+    float: left;
+}
+
+.din2{
+    background-color: white;
+    height: 300px;
+    width: 30px;
+    margin: 0 150px;
+    position: absolute;
+}
+/*
+
+/* colores bandera Emiratos Arabes */
+.ear1 {
+    background-color: red;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+.ear2 {
+    background-color: green;
+    height: 33.33%;
+    width: 70%;
+    float: left;
+}
+
+.ear3 {
+    background-color: white;
+    height: 33.33%;
+    width: 70%;
+    float: left;
+}
+
+.ear4 {
+    background-color: black;
+    height: 33.33%;
+    width: 70%;
+    float: left;
+}
+
+/* colores bandera Japon */
+.blanco{
+    background-color: white;
+}
+.jap1 {
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 80px 170px;
+}
+
+.circulo {
+    width: 200px;
+}
+
+footer {
+    background-color: darkslategrey;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    clear: both;
+    margin-top: 100px;
+}

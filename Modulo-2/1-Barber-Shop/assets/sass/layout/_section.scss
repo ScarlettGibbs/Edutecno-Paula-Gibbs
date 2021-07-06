@@ -1,0 +1,28 @@
+/* Seccion Texto*/
+
+.texto {
+    color: $raisin-black;
+}
+
+.texto--fecha {
+    font-family: $playfair;
+    font-size: $medium;
+    font-weight: $light;
+    padding: 1.2rem 0rem 3.2rem 0rem;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
+
+.texto--texto {
+    line-height: $height;
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $light;
+}
+
+.texto--span {
+    color: $ruddy-pink;
+
+}
+
+

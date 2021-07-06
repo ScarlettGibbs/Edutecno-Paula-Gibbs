@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Para que se deslice suavemente la pagina*/
+html {
+    scroll-behavior: smooth;
+}
+
+#sizeRicomida {
+    max-width: 100%;
+    height: 3em;
+}
+
+.logoRicomida {
+    font-family: 'Lobster', cursive;
+    text-size-adjust: 200px;
+}
+
+nav img {
+    width: 160px;
+    height: auto;
+}
+
+/* Posion en el borde inferior de las imagenes*/
+.carousel-indicators {
+    bottom: -50px;
+}
+
+/* los indicadores circulares */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ancho igual para todos los titulos */
+.card-title {
+    height: 40px;
+}
+
+/* La lista de contenido sin adornos*/
+.sinAdornos {
+    list-style: none;
+}
+
+/* Grosor de la linea*/
+hr {
+    height: 4px;
+}
+

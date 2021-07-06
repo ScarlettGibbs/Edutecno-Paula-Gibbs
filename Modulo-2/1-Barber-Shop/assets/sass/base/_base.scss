@@ -1,0 +1,42 @@
+//-------------------------------------------------------------
+// Reglas de estilo para elementos comunes utilizados.
+//-------------------------------------------------------------
+
+/* Para que se deslice suavemente la pagina*/
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: $playfair;
+    font-size: $xx-large;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    font-family: $roboto;
+}
+
+p {
+    line-height: 46px;
+    font-weight: $font-light;
+}
+
+a {
+    color: $ruddy-pink;
+    text-decoration: none;
+
+    &:hover {
+        color: $eerie-black;
+        text-decoration: none;
+    }
+
+    &:active {
+        color: $platinum;
+    }
+}

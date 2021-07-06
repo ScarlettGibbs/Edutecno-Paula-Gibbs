@@ -1,0 +1,19 @@
+/* Button Styles */
+
+.button {
+    @include important-button;
+    &:hover {
+        background-color: $nickel;
+        border-color: $nickel;
+    }
+}
+
+.texto__button {
+    @include improtant-button--small
+}
+
+@media screen and (min-width: 768px) {
+    .texto__button {
+        @include improtant-button--medium
+    }
+}

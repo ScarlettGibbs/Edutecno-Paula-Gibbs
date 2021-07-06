@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Descripcion de la Pagina - meta datos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Paula Gibbs">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,400&display=swap" rel="stylesheet">
+	<!--Titulo y el icono de la barrita del navegador-->
+	<title>Calculadora con JavaScript</title>
+	<link rel="shortcut icon" type="image/png" href="assets/img/Star_Wars_leia.png">
+	<!--Mi estilo-->
+	<link type="text/css" href="assets/css/calculadora.css" rel="stylesheet">
+</head>
+
+<body background="assets/img/fondo_papel.jpg">
+
+	<div class="container-fluid">
+		<h2>Calculadora con JavaScript</h2><br>
+		<table class="calculadora" background="assets\img\Rosas_Azules.jpg">
+			<tr>
+				<td colspan="4"><span id="resultado"></span></td>
+			</tr>
+			<tr>
+				<td><button onclick="clickea('7')">7</button></td>
+				<td><button onclick="clickea('8')">8</button></td>
+				<td><button onclick="clickea('9')">9</button></td>
+				<td><button onclick="operador('/')" id="operador">/</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="clickea('4')">4</button></td>
+				<td><button onclick="clickea('5')">5</button></td>
+				<td><button onclick="clickea('6')">6</button></td>
+				<td><button onclick="operador('*')" id="operador">*</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="clickea('1')">1</button></td>
+				<td><button onclick="clickea('2')">2</button></td>
+				<td><button onclick="clickea('3')">3</button></td>
+				<td><button onclick="operador('-')" id="operador">-</button></td>
+			</tr>
+
+			<tr>
+				<td><button onclick="calcular()" id="operador">=</button></td>
+				<td><button onclick="borrar()">C</button></td>
+				<td><button onclick="clickea('0')">0</button></td>
+				<td><button onclick="operador('+')" id="operador">+</button></td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- Mi JavaScrip-->
+	<script type="text/JavaScript" src="assets/js/ejercicio3.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,26 @@
+//-------------------------------------------------------------
+// Reglas de estilo para elementos comunes utilizados.
+//-------------------------------------------------------------
+
+/* Para que se deslice suavemente la pagina*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    background-color: $white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+
+

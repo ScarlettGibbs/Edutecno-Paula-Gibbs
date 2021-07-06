@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// Este archivo contiene todas las variables Sass ocupadas.
+// -----------------------------------------------------------------------------
+// COLORS
+// 1st color scheme
+$white: #FFFFFF;
+
+// Second Color Scheme
+$black: #000000;
+$sable: #060606;
+$charcoal: #2E1503;
+
+// Third Color Scheme
+$tangerine: #FFAF6D;
+$orange: #FFA500;
+
+// -----------------------------------------------------------------------------
+// Typography
+// -----------------------------------------------------------------------------
+// Font Family
+
+$poppins: 'Poppins', sans-serif;
+$ubuntu: 'Ubuntu', sans-serif;
+
+//text-height
+$height: 2.8rem; 
+
+// Font Weight
+$font-regular: 400;
+$font-black: 700;
+
+// Font Size
+$xxxxx-large: 50px;
+$xxxx-large: 45px;
+$xxx-large: 40px;
+$xx-large: 35px;
+$x-large: 30px;
+$large: 20px;
+$medium: 16px;
+$small: 14px;
+$x-small: 14px;
+
+// -----------------------------------------------------------------------------
+// Other variables
+// -----------------------------------------------------------------------------
+
+$columns: 12;
+
+// Para @media query
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;

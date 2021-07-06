@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: darkslateblue;
+}
+
+img {
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+div {
+    margin: 50px 20px;
+
+}
+
+.container {
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+table {
+    max-width:min-content;
+    white-space: nowrap;
+    border-collapse: collapse;
+    border: 1px solid darkslategray;
+    
+}
+
+.table_head {
+    background: darkslategray;
+    color: white;
+}
+
+table th,
+table td {
+    text-align: left;
+    vertical-align: auto;
+    border-collapse: collapse;
+    border: 1px solid darkslategray;
+}
+
+/* Pie de pagina */
+.footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    width: 100%;
+    background: gray;
+    color: white;
+}
+
+.footer__text {
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    padding-right: 30%;
+    padding-top: 16px;
+}

@@ -1,0 +1,50 @@
+/* Paginacion */
+
+.indice {
+    background-color: $platinum;
+    height: 115px;
+    padding: 2% 37% 5% 37%;
+}
+
+.pagination {
+    margin: 20px 0;
+    justify-content: center;
+
+    li {
+        margin-left: .25rem;
+        margin-right: .25rem;
+
+        .page-link {
+            border: none;
+            min-width: 2.25rem;
+            text-align: center;
+            background-color: $white;
+            color: $nickel;
+        }
+    }
+}
+
+
+.pagination li.active .page-link,
+.pagination li .page-link:hover {
+    background-color: $nickel;;
+    color: $white;
+}
+
+/*
+.pagination li.active .page-link,
+.pagination li .page-link:hover {
+    background-color: $nickel;
+    color: $white;
+}
+*/
+
+.page-item {
+    &:last-child .page-link {
+        border-radius: 0px 50px 50px 0px;
+    }
+
+    &:first-child .page-link {
+        border-radius: 50px 0 0 50px;
+    }
+}

@@ -1,0 +1,100 @@
+/* ----------------------------------------- */
+/*                 M E N U                   */
+/* ----------------------------------------- */
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background: darkslategrey;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    &__logo img {
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+
+    .contenedor {
+        display: table;
+    }
+
+    label {
+        float: right;
+        cursor: pointer;
+    }
+
+    //despluega el menu vertical desde la derecha suavetemte
+    &__list {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: auto;
+        background: darkslategrey;
+        opacity: 0.7;
+        transition: all 0.5s;
+        transform: translate(200%);
+
+        a {
+            display: block;
+            color: #fff;
+            height: auto;
+            width: 120px;
+            text-align: left;
+            text-decoration: none;
+            padding: 15px;
+
+            &:hover {
+                color: salmon;
+            }
+        }
+    }
+
+    &__icono {
+        font-size: 20px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 6px;
+    }
+
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+/* Ooculta el checkbox del input */
+#menu_bar {
+    display: none;
+}
+
+/* Desplegar el menu vertical cuando se activa el input */
+#menu_bar:checked~.navbar__list {
+    transform: translate(0%);
+}
+
+/* Muestra el menu horizontalmente*/
+@media (min-width: 1024px) {
+    .navbar {
+        &__list {
+            margin-top: 0;
+            position: static;
+            transform: translate(0%);
+            float: right;
+            display: flex;
+            a {
+                border: none;
+            }
+        }
+
+        label {
+            display: none;
+        }
+
+    }
+
+}

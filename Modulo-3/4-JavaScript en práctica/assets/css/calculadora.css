@@ -1,0 +1,42 @@
+.calculadora{
+	display:block;
+	margin:0 auto;
+	padding:20px;
+	opacity:0.5;
+	width:340px;
+	height:500px;
+	border-radius: 25px;
+}
+
+.calculadora td button{
+	display:block;
+	width:70px;
+	height: 70px;
+	font-size: 25px;
+	border-radius: 25px;
+	opacity:0.6;
+}
+
+#operador{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#resultado{
+	display:block;
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 50px;
+	width:300px;
+	height: 100px;
+	line-height: 100px;
+	background-color:#fff;
+	opacity:0.6;
+	border-radius: 25px;
+	overflow-y: auto;
+}
+h2{
+	color: teal;
+	text-align: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}

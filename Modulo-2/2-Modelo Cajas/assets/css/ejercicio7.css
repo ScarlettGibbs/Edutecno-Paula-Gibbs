@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: midnightblue;
+}
+
+.float-right {
+    position: fixed;
+    float: right;
+
+}
+
+.mover {
+    clear: right;
+    right: 0;
+    top: 0;
+}
+
+/* Pie de pagina*/
+footer {
+    background-color: darkslategrey;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 0%;
+}

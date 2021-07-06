@@ -1,0 +1,60 @@
+/* Pie de pagina */
+.footer {
+    background-color: $black;
+    text-align: center;
+    padding: 6rem 0;
+    width: 100vw;
+    display: flex;
+
+    &__link {
+        margin: -10px 0;
+    }
+
+    &__list {
+        list-style-type: none;
+    }
+
+    &__item {
+        a {
+            text-decoration: none;
+        }
+    }
+
+    &__form {
+        padding: 0 4px;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: $md) {
+    .footer {
+        text-align: left;
+
+        &__copy {
+            padding: 20px 10px;
+        }
+
+        &__link {
+            margin: 0;
+        }
+
+        &__list {
+            padding: 10px 4px;
+        }
+
+        &__item {
+            display: inline;
+
+            a {
+                padding: 0 8px;
+            }
+        }
+
+        &__form {
+            padding: 20px 0;
+        }
+    }
+}

@@ -1,0 +1,129 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: 'Raleway',sans-serif;
+  background: #000;
+}
+
+/*clases creadas y su configuracion en CSS*/
+.title{
+  font: Medium 3.125em/3.6875em Raleway;
+  font-size: 2.5em;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  height: 1.3em;
+  padding: 0;
+  margin: 0;
+}
+
+.ImageTitle{
+  width: 100%;
+}
+
+.desc-main{
+  font: Light 1em/1.1875em Raleway;
+  font-weight: 300;
+  color: #ffffff;
+  opacity: 1;
+  letter-spacing: 0;
+  text-align: left;
+  background: #000000;
+  height: 12.3125em;
+  width: 29.6875em;
+  padding-bottom: 4.6875em;
+  padding-left: 7.375em;
+  padding-right: 7em;
+  vertical-align: middle;
+  padding-top: 3em;
+  margin: 0;
+}
+
+.desc-photo{
+  background: transparent url('img/photo-1492963892107-740cd39d9ff3.png') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 24.9375em;
+  height: 14.8125em;
+  padding-left: 2em;
+  padding-right: 0;
+  vertical-align: middle;
+  padding-bottom: 4.125em;
+  padding-top: 0;
+}
+
+.desc-main, .desc-photo{
+  display: inline-block;
+}
+
+.desc-section{
+  background: #000000;
+}
+
+#icons-section,footer{
+  background: #1E1A13;
+  color: #fff;
+}
+
+#icons-section{
+  padding-top: 4.6875rem;
+  padding-bottom: 4.6875rem;
+}
+
+#icons-section h2{
+  margin-top: 0;
+  margin-bottom: 3.125rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.caracteristica{
+  margin: auto 5.625rem;
+}
+
+.caracteristica h3{
+  font-weight: 300;
+  font-size: 1.5625rem
+}
+
+.foto,.caracteristica{
+  display: inline-block;
+}
+
+#fotos{
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.foto img{
+  width: 19.75rem;
+  height: 12.625rem;
+  margin-left: 1rem;
+}
+
+footer{
+padding-top: 2.4375rem;
+padding-bottom: 2.4375rem;
+font-weight: 300;
+font-size: 1.25rem;
+color: #FFF;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer a:visited{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.centrado{
+  text-align: center;
+}
+
+/* y finaliza por P. Scarlett Gibbs */

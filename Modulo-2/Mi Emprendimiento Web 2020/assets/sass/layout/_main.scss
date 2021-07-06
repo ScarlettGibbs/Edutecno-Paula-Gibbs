@@ -1,0 +1,104 @@
+/* Container */
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    margin-top: 4rem;
+    padding: 10px;
+    width: 95%;
+}
+
+// main //
+
+.main {
+    background-color: $white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cursos {
+    padding: 10px;
+    border: 1px solid $black;
+    text-align: left;
+
+    &__container {
+        border: 1px solid $charcoal;
+        border-style: dotted;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    &__logos {
+        display: inline;
+
+        i {
+            padding: 0 6px;
+        }
+    }
+}
+
+.presenta {
+    padding: 0.8rem;
+    border: 1px solid $black;
+
+    &__img {
+        border-radius: 50%;
+        border-radius: 1px solid $black;
+        max-width: 15%;
+    }
+
+    &__texto,
+    &__list {
+        text-align: left;
+    }
+
+    &__division {
+        background-color: grey;
+        width: 100%;
+        line-height: 2rem;
+    }
+
+    &__animacion {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5rem;
+
+        svg {
+            width: 80%;
+        }
+    }
+}
+
+.presenta__animacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+
+    svg {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:$sm) {
+    .presenta__animacion {
+        margin-top: 6.3rem;
+
+        svg {
+            width: 60%;
+        }
+    }
+}
+
+@media only screen and (min-width:$md) {
+    .presenta__animacion svg {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: $lg) {
+    .presenta__animacion svg {
+        width: 40%;
+    }
+}

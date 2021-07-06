@@ -1,0 +1,47 @@
+/* Hero Styles */
+.hero {
+    height: 100vh;
+    background-color: $eerie-black;
+    background-image: url('../img/post-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    //align-items: flex-end;
+    margin-top: 95px;
+
+    .container {
+        width: 70vw;
+        height: 55vh;
+        color: $white;
+        text-align: center;
+        
+        font-weight: $font-black;
+        .hero_text {
+            font-size: $xx-large;
+            font-style: italic;
+            padding-top: 20%;
+        }
+
+        .texto_flecha{
+            align-items: flex-end;
+            bottom: 40px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        background-position: top;
+        /* background-position: 100% 100%; */
+
+        .container {
+            width: 50vw;
+            height: 55vh;
+            .hero_text {
+                font-size: $x-large;
+            }
+        }
+
+    }
+}
