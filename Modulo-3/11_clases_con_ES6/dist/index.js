@@ -81,10 +81,11 @@ $(document).ready(function () {
       console.log(cliente.nombre); //calculo del impuesto a pagar
       //let aPagar = parseFloat(cliente.calcularImpuesto(impuesto.monto_bruto_anual, impuesto.deducciones));
 
-      var aPagar = parseFloat(cliente.calcularImpuesto()).toFixed(2);
-      console.log("calculo el monto a pagar " + aPagar); // Se redondea 2 decimales
-      //aPagar = redondeA2Digitos(aPagar);
+      var aPagar = parseFloat(cliente.calcularImpuesto()); //let aPagar = parseFloat(cliente.calcularImpuesto()).toFixed(2);
 
+      console.log("calculo el monto a pagar " + aPagar); // Se redondea 2 decimales
+
+      aPagar = redondeA2Digitos(aPagar);
       console.log("El Cliente " + cliente.nombre + ", tiene que pagar en impuestos $ " + aPagar);
       /**/
       //let aPagar = (esteMontoAnualBruto - estasDeducciones)*0.21;
