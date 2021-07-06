@@ -6,7 +6,8 @@ var _impuestos = _interopRequireDefault(require("./impuestos.js"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-// Paula Gibbs - 23JUN2021
+// @Author Paula Gibbs
+// @Date 23JUN2021
 //Importar las clase 
 var redondeA2Digitos = function redondeA2Digitos(nro) {
   return nro % 2 === 0 ? Math.trunc(nro) : Math.round(nro * 100) / 100;
@@ -73,30 +74,30 @@ $(document).ready(function () {
     var esValido = validar(esteNombre, esteMontoAnualBruto, estasDeducciones); // se verifica que tenga datos ingresados
 
     if (esValido) {
-      /* */
+      /**/
       var impuesto = new _impuestos["default"](esteMontoAnualBruto, estasDeducciones);
       console.log("Impuestos -> " + impuesto.monto_bruto_anual, impuesto.deducciones);
-      var cliente = new _cliente["default"](esteNombre, [impuesto]);
+      var cliente = new _cliente["default"](esteNombre, impuesto);
       console.log(cliente.nombre); //calculo del impuesto a pagar
       //let aPagar = parseFloat(cliente.calcularImpuesto(impuesto.monto_bruto_anual, impuesto.deducciones));
 
-      var aPagar = parseFloat(cliente.calcularImpuesto());
+      var aPagar = parseFloat(cliente.calcularImpuesto()).toFixed(2);
       console.log("calculo el monto a pagar " + aPagar); // Se redondea 2 decimales
+      //aPagar = redondeA2Digitos(aPagar);
 
-      aPagar = redondeA2Digitos(aPagar);
       console.log("El Cliente " + cliente.nombre + ", tiene que pagar en impuestos $ " + aPagar);
-      /* */
+      /**/
       //let aPagar = (esteMontoAnualBruto - estasDeducciones)*0.21;
 
-      $("#impuesto_calculado").text(" ".concat(aPagar));
+      $("#impuesto_calculado").text("$ ".concat(aPagar));
       console.log(aPagar);
     } else {
       alert("Debe ingredar los datos requeridos"); //Limpia los input
 
       $('input[type="text"]').val('');
       $('input[type="number" ]').val('');
-      $("#impuesto_calculado").text(" ");
-      limpiandoMensajesError(); //actualizarLaPagina();
+      $("#impuesto_calculado").text(" "); //limpiandoMensajesError();
+      //actualizarLaPagina();
     }
   });
 });

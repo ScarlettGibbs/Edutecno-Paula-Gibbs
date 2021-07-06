@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: url("/assets/img/fondo.jpg") repeat fixed;
-    color: dimgray;
+    color: black;
+    font-size: 700;
 }
 
 h1{
@@ -17,14 +18,20 @@ h2, h3, h4, h5{
     margin-left: 20% 0;
     margin-top: 50px;
     background-color:antiquewhite;
-    opacity: 0.7;
-    
+    opacity: 0.7;    
 }
 
 input, span{
     width: 20px;
     height: 16px;
     text-align: justify;
+    color: black;
+    font-size: large;
+}
+
+#impuesto_calculado{
+    color: darkcyan;
+    font-size:x-large;
 }
 
 .nombre{
@@ -33,6 +40,8 @@ input, span{
 
 label{
     text-align: center;
+    color: darkblue;
+    font-size: medium;
 }
 
 /* Pie de pagina */

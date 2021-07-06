@@ -1,4 +1,5 @@
-// Paula Gibbs - 23JUN2021
+// @Author Paula Gibbs
+// @Date 23JUN2021
 
 //Importar las clase 
 import Cliente from './cliente.js';
@@ -70,23 +71,23 @@ $(document).ready(function () {
         // se verifica que tenga datos ingresados
         if (esValido) {
 
-            /* */
+            /**/
             let impuesto = new Impuestos(esteMontoAnualBruto, estasDeducciones);
             console.log("Impuestos -> " + impuesto.monto_bruto_anual, impuesto.deducciones);
-            let cliente = new Cliente(esteNombre, [impuesto]);
+            let cliente = new Cliente(esteNombre, impuesto);
             console.log(cliente.nombre);
             //calculo del impuesto a pagar
             //let aPagar = parseFloat(cliente.calcularImpuesto(impuesto.monto_bruto_anual, impuesto.deducciones));
-            let aPagar = parseFloat(cliente.calcularImpuesto());
+            let aPagar = parseFloat(cliente.calcularImpuesto()).toFixed(2);
             console.log("calculo el monto a pagar " + aPagar);
             
             // Se redondea 2 decimales
-            aPagar = redondeA2Digitos(aPagar);
+            //aPagar = redondeA2Digitos(aPagar);
             console.log("El Cliente " + cliente.nombre + ", tiene que pagar en impuestos $ " + aPagar);
-            /* */ 
+            /**/ 
             //let aPagar = (esteMontoAnualBruto - estasDeducciones)*0.21;
 
-            $("#impuesto_calculado").text(` ${aPagar}`);
+            $("#impuesto_calculado").text(`$ ${aPagar}`);
             console.log(aPagar);
         } else {
             alert("Debe ingredar los datos requeridos");
@@ -94,7 +95,7 @@ $(document).ready(function () {
             $('input[type="text"]').val('');
             $('input[type="number" ]').val('');
             $("#impuesto_calculado").text(` `);
-            limpiandoMensajesError();
+            //limpiandoMensajesError();
             //actualizarLaPagina();
 
         }
