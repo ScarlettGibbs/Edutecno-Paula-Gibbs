@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: darkslateblue
+}
+
+div {
+    margin: 50px 20px;
+}
+
+.container {
+    width: 100vw;
+    margin-bottom: 20px;
+    padding: 40px 10%;
+}
+
+/* Pie de pagina */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    width: 100%;
+    background: gray;
+    color: white;
+}
+
+.footer__text {
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    padding-right: 30%;
+    padding-bottom: 12px;
+}
