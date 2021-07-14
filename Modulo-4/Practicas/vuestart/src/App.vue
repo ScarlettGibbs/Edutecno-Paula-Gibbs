@@ -1,20 +1,44 @@
-<template>
+<template lang = "html">
     <div id="app">
-        {{ message }}
-        <HelloVue></HelloVue>
+        <button @click="mostrarComponente">Mostrar u ocultar</button>
+        <div v-if="mostrar">
+            {{ message }}
+            <img :src="pathImage" />
+            <input v-model="message" />
+            <HelloVue v-if="checked" />
+            <input type="checkbox" id="checkbox" v-model="checked" />
+            {{ checked }}
+            <ul>
+                <li v-for="fruta in frutas">
+                <span>{{ fruta.name }}</span>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
+
 <script>
-import HelloVue from "./HelloVue.vue";
+import HelloVue from "/helloVue.vue";
 export default {
-    name: "App",
+    name: "app",
     components: {
         HelloVue,
     },
     data() {
         return {
-        message: "Hola Desafío Latam!!! 🤟🤟",
+        checked: true,
+        frutas: [{ name: "Frutillas" }, { name: "Manzanas" }, { name: "Kiwis" }],
+        mostrar: true,
+        message: "Desafio  Latam!!! 🤟🤟",
+        pathImage:
+            "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
         };
+    },
+    methods: {
+        mostrarComponente() {
+        console.log("Soy un metodo");
+        this.mostrar = !this.mostrar;
+        },
     },
 };
 </script>
