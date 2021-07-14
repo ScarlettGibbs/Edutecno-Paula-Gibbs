@@ -14,7 +14,7 @@
       </thead>
       <tbody>
         <!-- Carga de datos de las personas -->
-        <tr v-for="(persona, index) in personas" :key="persona.id">
+        <tr v-for="(persona, index) in personas" :key="index">
           <th scope="row">{{ index + 1 }}</th>
           <td>{{ persona.nombre }}</td>
           <td>{{ persona.apellido }}</td>
