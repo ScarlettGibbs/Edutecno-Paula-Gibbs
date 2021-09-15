@@ -34,10 +34,7 @@ esOpcion = () => {
   do {
     nro = esNro(prompt("¿Cual escojes? \n [1] Piedra \n [2] Papel \n [3] Tijeta ")
     );
-    if(nro < 1) {
-      alert(errorNro);
-      opcion = false;
-    }else if(nro < 1 && nro > 4) {
+    if(nro < 1 && nro > 4) {
         alert(errorNro + " entre 1,2 o 3");
         opcion = false;
     }else {
@@ -55,7 +52,7 @@ function esJugadas() {
   let opcion = false;
   do {
     var nro = esNro(prompt("¿Cuantas veces quieres jugar?"));
-    if (nro < 1) {
+    if (nro < 1 && nro>20) {
       alert(errorNro);
       opcion = false;
     } else {

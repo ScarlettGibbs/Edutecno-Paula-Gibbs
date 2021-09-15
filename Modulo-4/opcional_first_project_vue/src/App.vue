@@ -33,44 +33,39 @@ export default {
     return {
       personas: [
         {
-          id: 1,
           nombre: "Carlos 1",
           apellido: "Gibbs",
           run: "18.223.444-1",
           nacimiento: "17-01-1989",
-          edad: 32,
+          edad: 32
         },
         {
-          id: 2,
           nombre: "Marcela",
           apellido: "RetamalL",
           run: "11.123.425-6",
           nacimiento: "10-03-1979",
-          edad: 42,
+          edad: 42
         },
         {
-          id: 3,
           nombre: "Scarlett",
           apellido: "Witting",
           run: "7.998.789-5",
           nacimiento: "23-5-1967",
-          edad: 54,
+          edad: 54
         },
         {
-          id: 4,
           nombre: "Karin",
           apellido: "Fernandez",
           run: "18.887.662-K",
           nacimiento: "4-11-1989",
-          edad: 32,
+          edad: 32
         },
         {
-          id: 5,
           nombre: "Ana",
           apellido: "Sepulveda",
           run: "14.441.281-0",
           nacimiento: "12-8-1992",
-          edad: 29,
+          edad: 29
         },
       ],
     };
